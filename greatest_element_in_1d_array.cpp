@@ -16,7 +16,7 @@ int greatest_element(int array[],int size)
 int main()
 {
     int n;
-    cout<<"Enter the sixe of the array: \t";
+    cout<<"Enter the size of the array: \t";
     cin>>n;
     int array[n];
     cout<<"Enter the elements in the array:\n";
