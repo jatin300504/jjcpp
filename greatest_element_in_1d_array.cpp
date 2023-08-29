@@ -2,7 +2,7 @@
 using namespace std;
 int greatest_element(int array[],int size)
 {
-    int greatest=0;
+    int  greatest=0;
     for(int i=0;i<size;i++)
     {
         if(greatest<array[i])
