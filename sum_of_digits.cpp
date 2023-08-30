@@ -2,7 +2,7 @@
 using namespace std;
 unsigned short sum_of_digits(long long int n)
 {
-    unsigned short sod=0; //sod stands for 'sum of digits'
+    unsigned short sod=0;  //sod stands for 'sum of digits'
     while (n>0)
     {
         sod+=n%10;
