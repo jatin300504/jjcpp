@@ -20,7 +20,9 @@ bool check_pelindrome(long long int n)
 }
 int main()
 {
-    long long int k=1234567654321;
+    long long int k;
+    cout<<"Enter value\n";
+    cin>>k;
     if(check_pelindrome(k))
     {
         cout<<"YES";
